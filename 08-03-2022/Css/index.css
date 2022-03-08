@@ -1,0 +1,58 @@
+    .header {
+        /* border: 2px solid rgb(255, 255, 255); */
+        display: flex;
+        color: rgb(255, 255, 255);
+        background-color: rgba(83, 36, 192, 0);
+    }
+    
+    .samp {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .samp:hover {
+        cursor: pointer;
+        color: green;
+        background-color: white;
+    }
+    
+    .body {
+        background-image: url(../images/Background/night.jpeg);
+        background-size: cover;
+    }
+    
+    .search {
+        align-self: center;
+        height: 300px;
+        width: 300px;
+        margin: 50px;
+        border: 4px solid snow;
+    }
+    
+    .image:hover {
+        transform: scale(1.5);
+    }
+    
+    .button {
+        color: white;
+        background-color: black;
+        padding: 10px;
+        width: 100px;
+        margin: 10px;
+        font-size: large;
+    }
+    
+    .footer {
+        /* border: 2px solid rgb(255, 255, 255); */
+        display: flex;
+        color: rgb(255, 255, 255);
+        background-color: rgba(83, 36, 192, 0);
+        position: fixed;
+        bottom: 10px;
+        width: 98.5%;
+    }
+    
+    .footer-items {
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }

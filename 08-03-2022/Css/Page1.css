@@ -1,0 +1,45 @@
+.body {
+    background-image: url(../images/Background/back1.jpeg);
+    background-size: cover;
+}
+
+.header {
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(83, 36, 192, 0);
+}
+
+.samp {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.samp:hover {
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+
+.footer {
+    /* border: 2px solid rgb(255, 255, 255); */
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color: rgba(83, 36, 192, 0);
+    position: fixed;
+    bottom: 10px;
+    width: 98.5%;
+}
+
+.footer-items {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    margin-top: 50px;
+}
