@@ -39,4 +39,10 @@
     width: 460px;
     border: 3px solid white;
     margin: 20px;
+    transition: transform 1s;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: matrix(1);
 }
