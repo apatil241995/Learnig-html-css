@@ -1,0 +1,107 @@
+.body {
+    background: linear-gradient(110deg, black, aquamarine 60%);
+}
+
+.main-div {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+}
+
+.sub-div-1 {
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: 4px solid rgba(250, 131, 115, 0.452);
+    box-shadow: 8px 8px aquamarine;
+    border-radius: 20px;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    color: white;
+    background-color: rgba(83, 36, 192, 0);
+}
+
+.samp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    height: fit-content;
+    width: fit-content;
+}
+
+.samp:hover {
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}
+
+.space {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    width: 90%;
+    height: 20%;
+    background-color: rgba(250, 235, 215, 0.534);
+    position: relative;
+    bottom: 20px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.footer-item {
+    margin: 20px;
+}
+
+.icon {
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+    transition: transform(0.5sec);
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: white;
+    transform: scale(1.5);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: left;
+}
+
+.image-left {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.image-right {
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}

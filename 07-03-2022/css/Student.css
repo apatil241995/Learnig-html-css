@@ -1,0 +1,33 @@
+.main-div {
+    width: fit-content;
+    background-color: rgb(223, 202, 202);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 5px;
+    color: white;
+    font-style: italic;
+    text-shadow: 3px black;
+    outline-style: double;
+    outline-color: black;
+    outline-width: 5px;
+}
+
+.name {
+    width: fit-content;
+    display: flex;
+}
+
+.input {
+    height: 20px;
+    border: 2px solid white;
+}
+
+.body {
+    background-color: wheat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: smaller;
+}
